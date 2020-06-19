@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule Home index.php
+RewriteRule Score/([0-9]+) update_score.php?id=$1
+
